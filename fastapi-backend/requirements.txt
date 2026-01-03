@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+pydantic
+pydantic-settings
+aiohttp
+python-nmap
+libnmap
+supabase
+openai
+python-dotenv

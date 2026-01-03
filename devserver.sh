@@ -1,3 +1,7 @@
-#!/bin/sh
+#!/bin/bash
+
 source .venv/bin/activate
-python -u -m flask --app main run --debug
+
+cd fastapi-backend
+
+uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
